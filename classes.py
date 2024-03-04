@@ -3,8 +3,7 @@ class person:
         self.name = name
 
     def __str__(self):
-        return (f'Hello, I am {self.name} studying Quality and testing of software. '
-                f'Here is my completed task about refactoring Python code')
+        return (f'Hello, I am {self.name} studying Quality and testing of software. Here is my completed task about refactoring Python code')
 
 class Student(person):
 
